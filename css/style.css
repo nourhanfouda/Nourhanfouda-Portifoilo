@@ -1,0 +1,183 @@
+
+.profile-img{
+    border-radius: 50%;
+   width: 500px;
+   height: 500px;
+position: absolute;
+top: 150px;
+  left: -50px;
+
+}
+.about-img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+position: relative;
+background-color: #ef8172;
+border: 4px solid transparent ;
+
+}
+
+
+
+.contact{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+position: relative;
+
+border: 2px solid transparent ;
+
+}
+.circle {
+    
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+  
+    width: 643px;
+    height: 680px;
+    position: relative;  
+    justify-content:flex-start  ;
+display: flex;
+ 
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+.font-style{
+  color: white;
+  font-family: 'Sanchez', serif;
+}
+
+ul .nav-item a{ color: white; 
+cursor: pointer;
+}
+
+ul .nav a { color: black; 
+  cursor: pointer;
+  }
+
+
+  .img-border{
+  
+   background-color: #ef8172;
+   border: 8px solid transparent ;
+   
+  }
+
+    
+  
+
+.border-bottom{
+width: 120px;
+  border-bottom:  solid gray;
+  color: grey;
+  font-weight: bold;
+  font-size: 13px;
+}
+.lead{
+  color: grey;
+  font-weight: bold;
+  font-size: 16;
+}
+.letter{
+  letter-spacing: 8px;
+  font-size: 55px;
+
+}
+
+
+.btn {
+ /* Blue background */
+
+ width: 350px;
+  border: 2px solid gery; /* Remove borders */
+  color: gery; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  
+}
+
+
+
+.icon{
+  width: 30px;
+  height: 30px;
+  
+}
+
+
+.content_img{
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.portifolio_img{
+  position: relative;
+  width: 500px;
+  height: 700px;
+}
+
+.content_img div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0px;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  opacity: 0.5;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.content_img:hover{
+  cursor: pointer;
+}
+
+
+.content_img:hover div{
+width: 400px;
+
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7; 
+}
+
+
+.icon-feauter{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+
+}
+.header{
+  height: 200px;
+}
+
+.footer{
+  height: 50px;
+  
+}
+
+.shadow {
+  box-shadow: 5px 5px 20px 24px ;
+ 
+ 
+}
+.label{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.resize{
+height: 150px;
+resize: vertical;
+}
